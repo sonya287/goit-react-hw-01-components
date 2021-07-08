@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: rgb(240, 255, 240);
+  color: #2a2a2a;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p,
+ul,
+h2,
+li {
+  margin: 0;
+  padding: 0;
+}

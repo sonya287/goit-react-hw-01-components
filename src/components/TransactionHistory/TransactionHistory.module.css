@@ -1,0 +1,27 @@
+.transaction_history {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(143, 143, 143);
+  width: 450px;
+  border-collapse: collapse;
+}
+.table_head {
+  padding: 7px 0;
+  font-size: 20px;
+
+  border: 1px solid rgb(143, 143, 143);
+  background-color: rgba(218, 245, 235, 0.623);
+  color: rgb(44, 44, 44);
+  width: calc(100% / 3);
+}
+.table_cell {
+  padding: 4px 0;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(58, 58, 58);
+  border: 1px solid rgb(143, 143, 143);
+}
+.table_row:nth-child(2n) {
+  background-color: #fff;
+}
